@@ -20,10 +20,19 @@ This chatbot:
 
 ---
 
-## 🧠 How It Works
+System prompt ensures:
 
-### 1️⃣ Data Loading
-The system uses:
+Maximum 3 sentences
 
-```python
-UnstructuredURLLoader
+Concise answers
+
+No hallucination
+
+Says “I don’t know” if answer not found
+
+pluto-daycare-chatbot/
+│
+├── app1.py              # Streamlit RAG chatbot
+├── RAG_Chatbot.ipynb    # Experimentation & testing
+├── requirements.txt
+└── README.md
