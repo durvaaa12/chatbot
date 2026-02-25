@@ -30,11 +30,16 @@ No hallucination
 
 Says “I don’t know” if answer not found
 
---
+---
+
 ## pluto-daycare-chatbot/
 │
 ├── app1.py              # Streamlit RAG chatbot
+
 ├── RAG_Chatbot.ipynb    # Experimentation & testing
+
 ├── requirements.txt
+
 └── README.md
---
+
+---
